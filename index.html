@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de login</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 98vh;
+            width: 100%;
+            background-image: url(https://artcetera.art/wp-content/uploads/2023/07/melhores-animes-de-todos-os-tempos-950x500.jpg);
+            background-repeat:no-repeat;
+            background-size: cover;
+            background-position:center center;
+        }
+        #form{
+            display: flex;
+            flex-direction: column;
+        }
+        input#Nome{
+            border-radius: 5px;
+            padding:5px 0px ;
+        }
+        input#Sobrenome{
+            border-radius: 5px;
+            padding:5px 0px;
+        }
+        #sub{
+            background: blue;
+            border: none;
+            cursor: pointer;
+            padding: 5px 0px;
+            border-radius: 5px;
+        }
+        div{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: rgba(2, 1, 1, 0.952);
+            padding: 50px;
+            border-radius: 10px;
+            background-image: url(https://oxentesensei.com.br/wp-content/uploads/2022/02/animes-demonslayer-similar-capa.jpg.webp);
+            background-size: cover;
+            background-position: center center;
+            box-shadow: 5px 5px 8px black;
+        }
+        h1{
+            color: #ffff;
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <h1>Fazer login</h1>
+        <br>
+            <form action="cadatros.php" id="form">
+                <input type="name" name="none" placeholder="nome" id="Nome">
+                <br>
+                <input type="text" name="sobrenome"
+                 placeholder="Sobrenome" id="Sobrenome">
+                 <br>
+                <input type="submit" value="Enviar" id="sub">
+            </form>
+    </div>
+</body>
+</html>
